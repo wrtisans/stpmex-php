@@ -1,8 +1,8 @@
 # STP Mexico - PHP
 
 [![StyleCI](https://styleci.io/repos/211879152/shield?branch=master)](https://styleci.io/repos/211879152)
-[![Total Downloads](https://poser.pugx.org/kinedu/stpmex-php/downloads?format=flat-square)](https://packagist.org/packages/kinedu/stpmex-php)
-[![License](https://img.shields.io/github/license/kinedu/stpmex-php.svg?style=flat-square)](https://packagist.org/packages/kinedu/stpmex-phpstpmex-php)
+[![Total Downloads](https://poser.pugx.org/wrtisans/stpmex-php/downloads?format=flat-square)](https://packagist.org/packages/wrtisans/stpmex-php)
+[![License](https://img.shields.io/github/license/wrtisans/stpmex-php.svg?style=flat-square)](https://packagist.org/packages/wrtisans/stpmex-phpstpmex-php)
 
 - [Installation](#installation)
 - [License](#license)
@@ -10,7 +10,7 @@
 ## Installation
 
 ```shell
-composer require kinedu/stpmex-php
+composer require wrtisans/stpmex-php
 ```
 
 ## Usage
@@ -77,16 +77,16 @@ $client = new Client(...);
 
 $client->order()->create([
     'claveRastreo' => '123456789000000000000000003',
-    'conceptoPago' => 'Kinedu Payment',
+    'conceptoPago' => 'wrtisans Payment',
     'emailBeneficiario' => 'john.doe@example.com',
     'cuentaBeneficiario' => '012345678987654321',
-    'empresa' => 'KINEDU',
+    'empresa' => 'wrtisans',
     'institucionContraparte' => FinancialInstitutionCatalogue::BANORTE_IXE,
     'institucionOperante' => FinancialInstitutionCatalogue::STP,
     'iva' => 16.00,
     'monto' => 1200.00,
     'nombreBeneficiario' => 'John Doe',
-    'nombreOrdenante' => 'Kinedu SAPI de CV',
+    'nombreOrdenante' => 'wrtisans SAPI de CV',
     'prioridad' => 1,
     'referenciaNumerica' => '1234567',
     'tipoCuentaBeneficiario' => AccountTypeCatalogue::CLABE,

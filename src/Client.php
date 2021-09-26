@@ -1,6 +1,6 @@
 <?php
 
-namespace Kinedu\STP;
+namespace Wrtisans\STP;
 
 use Wrtisans\STP\Request\{
     RestHttpClient,

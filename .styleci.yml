@@ -1,0 +1,4 @@
+preset: psr2
+
+disabled:
+  - single_import_per_statement

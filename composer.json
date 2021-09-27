@@ -1,18 +1,20 @@
 {
-  "name": "wrtisans/stpmex-php",
-  "homepage": "https://github.com/wrtisans/stpmex-php",
-  "type": "library",
-  "license": "MIT",
-  "keywords": ["stp"],
-  "require": {
-    "php": "^8.0",
-    "guzzlehttp/guzzle": "^7.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "wrtisans\\STP\\": "src"
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "name": "wrtisans/stpmex-php",
+    "homepage": "https://github.com/wrtisans/stpmex-php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "stp"
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wrtisans\\STP\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
